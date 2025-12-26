@@ -28,6 +28,7 @@ export default function Home() {
             <div className="hidden md:flex items-center space-x-8">
               <a href="#home" className="text-slate-900 hover:text-red-600 transition-colors font-medium">Home</a>
               <Link href="/services" className="text-slate-900 hover:text-red-600 transition-colors font-medium">Our Services</Link>
+              <Link href="/about" className="text-slate-900 hover:text-red-600 transition-colors font-medium">About Us</Link>
             </div>
           </div>
         </nav>
@@ -531,7 +532,7 @@ export default function Home() {
               <ul className="space-y-2 text-red-100">
                 <li><a href="#home" className="hover:text-white transition-colors">Home</a></li>
                 <li><Link href="/services" className="hover:text-white transition-colors">Our Services</Link></li>
-                <li><a href="#about" className="hover:text-white transition-colors">About Us</a></li>
+                <li><Link href="/about" className="hover:text-white transition-colors">About Us</Link></li>
                 <li><a href="#strategy" className="hover:text-white transition-colors">Our Strategy</a></li>
               </ul>
             </div>

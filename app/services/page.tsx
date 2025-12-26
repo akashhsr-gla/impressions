@@ -181,6 +181,7 @@ export default function ServicesPage() {
             <div className="hidden md:flex items-center space-x-8">
               <Link href="/" className="text-slate-900 hover:text-red-600 transition-colors font-medium">Home</Link>
               <Link href="/services" className="text-red-600 font-medium">Our Services</Link>
+              <Link href="/about" className="text-slate-900 hover:text-red-600 transition-colors font-medium">About Us</Link>
             </div>
           </div>
         </nav>
@@ -294,6 +295,7 @@ export default function ServicesPage() {
               <ul className="space-y-2 text-red-100">
                 <li><Link href="/" className="hover:text-white transition-colors">Home</Link></li>
                 <li><Link href="/services" className="hover:text-white transition-colors">Our Services</Link></li>
+                <li><Link href="/about" className="hover:text-white transition-colors">About Us</Link></li>
               </ul>
             </div>
             <div>
