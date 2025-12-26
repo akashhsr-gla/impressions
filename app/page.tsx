@@ -2,37 +2,13 @@ import Image from "next/image";
 import Link from "next/link";
 import EnquiryForm from "./components/EnquiryForm";
 import EnquiryButton from "./components/EnquiryButton";
+import Header from "./components/Header";
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-white">
       {/* Header */}
-      <header className="sticky top-0 z-50 bg-white shadow-sm relative overflow-hidden">
-        {/* Red circle light gradients */}
-        <div className="absolute top-0 left-0 w-64 h-64 bg-red-500 rounded-full opacity-20 blur-3xl -translate-x-1/2 -translate-y-1/2"></div>
-        <div className="absolute top-0 right-0 w-96 h-96 bg-red-600 rounded-full opacity-15 blur-3xl translate-x-1/2 -translate-y-1/2"></div>
-        <div className="absolute bottom-0 left-1/4 w-48 h-48 bg-red-400 rounded-full opacity-25 blur-2xl -translate-x-1/2 translate-y-1/2"></div>
-        <div className="absolute top-1/2 right-1/3 w-32 h-32 bg-red-500 rounded-full opacity-20 blur-2xl"></div>
-        
-        <nav className="container mx-auto px-6 py-4 relative z-10">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center space-x-3">
-              {/* Logo placeholder - you can replace with actual logo */}
-              <div className="flex items-center space-x-2">
-                <div className="h-10 w-10 rounded-full bg-gradient-to-br from-red-600 to-red-800 flex items-center justify-center">
-                  <span className="text-white font-bold text-xl">IS</span>
-                </div>
-                <span className="text-xl font-bold text-slate-900">Impression Imaging</span>
-              </div>
-            </div>
-            <div className="hidden md:flex items-center space-x-8">
-              <a href="#home" className="text-slate-900 hover:text-red-600 transition-colors font-medium">Home</a>
-              <Link href="/services" className="text-slate-900 hover:text-red-600 transition-colors font-medium">Our Services</Link>
-              <Link href="/about" className="text-slate-900 hover:text-red-600 transition-colors font-medium">About Us</Link>
-            </div>
-          </div>
-        </nav>
-      </header>
+      <Header />
 
       {/* Hero Section */}
       <section id="home" className="relative bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white py-24 md:py-32">
