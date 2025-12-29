@@ -166,55 +166,55 @@ export default function AboutPage() {
             <div className="mb-16">
               <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-8 text-center">Our Directors</h2>
               <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-                {/* Director 1 - Jitendra Kumar */}
-                <div className="bg-white rounded-2xl shadow-lg p-8 border border-slate-200 hover:shadow-xl transition-all">
-                  <div className="flex flex-col items-center text-center">
-                    <div className="relative w-48 h-48 mb-6 rounded-full overflow-hidden border-4 border-red-600 shadow-lg">
-                      <Image
-                        src="/directors/WhatsApp Image 2025-12-28 at 14.50.04.jpeg"
-                        alt="Jitendra Kumar"
-                        fill
-                        className="object-cover"
-                        sizes="(max-width: 768px) 192px, 192px"
-                      />
-                    </div>
-                    <h3 className="text-2xl font-bold text-slate-900 mb-2">Jitendra Kumar</h3>
-                    <p className="text-red-600 font-semibold mb-4">Director</p>
-                    <div className="flex items-center space-x-2 text-slate-600">
-                      <svg className="w-5 h-5 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                      </svg>
-                      <a href="mailto:jitendra@impressionimaging.co.in" className="hover:text-red-600 transition-colors">
-                        jitendra@impressionimaging.co.in
-                      </a>
-                    </div>
-                  </div>
-                </div>
+                 {/* Director 1 - Lalan Kumar Dixit */}
+                 <div className="bg-white rounded-2xl shadow-lg p-8 border border-slate-200 hover:shadow-xl transition-all">
+                   <div className="flex flex-col items-center text-center">
+                     <div className="relative w-48 h-48 mb-6 rounded-full overflow-hidden border-4 border-red-600 shadow-lg">
+                       <Image
+                         src="/directors/WhatsApp Image 2025-12-28 at 14.50.04.jpeg"
+                         alt="Lalan Kumar Dixit"
+                         fill
+                         className="object-cover"
+                         sizes="(max-width: 768px) 192px, 192px"
+                       />
+                     </div>
+                     <h3 className="text-2xl font-bold text-slate-900 mb-2">Lalan Kumar Dixit</h3>
+                     <p className="text-red-600 font-semibold mb-4">Director</p>
+                     <div className="flex items-center space-x-2 text-slate-600">
+                       <svg className="w-5 h-5 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                       </svg>
+                       <a href="mailto:jitendra@impressionimaging.co.in" className="hover:text-red-600 transition-colors">
+                         jitendra@impressionimaging.co.in
+                       </a>
+                     </div>
+                   </div>
+                 </div>
 
-                {/* Director 2 - Lalan Kumar Dixit */}
-                <div className="bg-white rounded-2xl shadow-lg p-8 border border-slate-200 hover:shadow-xl transition-all">
-                  <div className="flex flex-col items-center text-center">
-                    <div className="relative w-48 h-48 mb-6 rounded-full overflow-hidden border-4 border-red-600 shadow-lg">
-                      <Image
-                        src="/directors/WhatsApp Image 2025-12-28 at 14.47.19.jpeg"
-                        alt="Lalan Kumar Dixit"
-                        fill
-                        className="object-cover"
-                        sizes="(max-width: 768px) 192px, 192px"
-                      />
-                    </div>
-                    <h3 className="text-2xl font-bold text-slate-900 mb-2">Lalan Kumar Dixit</h3>
-                    <p className="text-red-600 font-semibold mb-4">Director</p>
-                    <div className="flex items-center space-x-2 text-slate-600">
-                      <svg className="w-5 h-5 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                      </svg>
-                      <a href="mailto:lalan@impressionimaging.co.in" className="hover:text-red-600 transition-colors">
-                        lalan@impressionimaging.co.in
-                      </a>
-                    </div>
-                  </div>
-                </div>
+                 {/* Director 2 - Jitendra Kumar */}
+                 <div className="bg-white rounded-2xl shadow-lg p-8 border border-slate-200 hover:shadow-xl transition-all">
+                   <div className="flex flex-col items-center text-center">
+                     <div className="relative w-48 h-48 mb-6 rounded-full overflow-hidden border-4 border-red-600 shadow-lg">
+                       <Image
+                         src="/directors/WhatsApp Image 2025-12-28 at 14.47.19.jpeg"
+                         alt="Jitendra Kumar"
+                         fill
+                         className="object-cover"
+                         sizes="(max-width: 768px) 192px, 192px"
+                       />
+                     </div>
+                     <h3 className="text-2xl font-bold text-slate-900 mb-2">Jitendra Kumar</h3>
+                     <p className="text-red-600 font-semibold mb-4">Director</p>
+                     <div className="flex items-center space-x-2 text-slate-600">
+                       <svg className="w-5 h-5 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                       </svg>
+                       <a href="mailto:lalan@impressionimaging.co.in" className="hover:text-red-600 transition-colors">
+                         lalan@impressionimaging.co.in
+                       </a>
+                     </div>
+                   </div>
+                 </div>
               </div>
             </div>
 
