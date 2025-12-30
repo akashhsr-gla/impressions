@@ -17,15 +17,8 @@ export default function Home() {
             {/* Logo */}
             <div className="mb-8 flex justify-center">
               <div className="relative">
-                <div className="h-24 w-24 rounded-full bg-gradient-to-br from-red-600 to-red-800 flex items-center justify-center shadow-2xl overflow-hidden">
-                  <Image
-                    src="/logo.svg"
-                    alt="Impression Imaging Logo"
-                    width={96}
-                    height={96}
-                    className="object-contain"
-                    priority
-                  />
+                <div className="h-24 w-24 rounded-full bg-gradient-to-br from-red-600 to-red-800 flex items-center justify-center shadow-2xl">
+                  <span className="text-white font-bold text-4xl">IS</span>
                 </div>
                 <div className="absolute -top-2 -right-2 h-8 w-8 bg-white rounded-full opacity-20"></div>
               </div>
