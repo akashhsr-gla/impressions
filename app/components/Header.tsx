@@ -61,6 +61,12 @@ export default function Header() {
             >
               About Us
             </Link>
+            <Link 
+              href="/apk" 
+              className={`transition-colors font-medium ${isActive('/apk') ? 'text-red-600' : 'text-slate-900 hover:text-red-600'}`}
+            >
+              Download APK
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -120,6 +126,17 @@ export default function Header() {
               }`}
             >
               About Us
+            </Link>
+            <Link
+              href="/apk"
+              onClick={closeMenu}
+              className={`px-4 py-3 rounded-lg font-medium transition-colors ${
+                isActive('/apk')
+                  ? 'bg-red-600 text-white'
+                  : 'text-slate-900 hover:bg-slate-100'
+              }`}
+            >
+              Download APK
             </Link>
           </div>
         </div>
