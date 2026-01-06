@@ -70,6 +70,12 @@ export default function Header() {
               About Us
             </Link>
             <Link 
+              href="/gallery" 
+              className={`transition-colors font-medium ${isActive('/gallery') ? 'text-red-600' : 'text-slate-900 hover:text-red-600'}`}
+            >
+              Gallery
+            </Link>
+            <Link 
               href="/apk" 
               className={`transition-colors font-medium ${isActive('/apk') ? 'text-red-600' : 'text-slate-900 hover:text-red-600'}`}
             >
@@ -134,6 +140,17 @@ export default function Header() {
               }`}
             >
               About Us
+            </Link>
+            <Link
+              href="/gallery"
+              onClick={closeMenu}
+              className={`px-4 py-3 rounded-lg font-medium transition-colors ${
+                isActive('/gallery')
+                  ? 'bg-red-600 text-white'
+                  : 'text-slate-900 hover:bg-slate-100'
+              }`}
+            >
+              Gallery
             </Link>
             <Link
               href="/apk"
