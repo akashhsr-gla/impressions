@@ -8,7 +8,7 @@ const carouselImages = [
   '/carousel/WhatsApp Image 2025-12-30 at 16.26.40 (1).jpeg',
   '/carousel/WhatsApp Image 2025-12-30 at 16.26.40.jpeg',
   '/carousel/WhatsApp Image 2025-12-30 at 16.26.41.jpeg',
-  '/carousel/WhatsApp Image 2025-12-30 at 16.26.44.jpeg',
+  '/service_gallerypage/3D/BoxGate/WhatsApp Image 2025-12-30 at 16.26.54 (1).jpeg',
   '/carousel/WhatsApp Image 2025-12-30 at 16.26.46.jpeg',
   '/carousel/WhatsApp Image 2025-12-30 at 16.26.48 (2).jpeg',
   '/carousel/WhatsApp Image 2025-12-30 at 16.26.54 (1).jpeg',
