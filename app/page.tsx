@@ -3,12 +3,16 @@ import Link from "next/link";
 import EnquiryForm from "./components/EnquiryForm";
 import EnquiryButton from "./components/EnquiryButton";
 import Header from "./components/Header";
+import ImageCarousel from "./components/ImageCarousel";
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-white">
       {/* Header */}
       <Header />
+
+      {/* Image Carousel */}
+      <ImageCarousel />
 
       {/* Hero Section */}
       <section id="home" className="relative bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white py-24 md:py-32">
@@ -17,10 +21,16 @@ export default function Home() {
             {/* Logo */}
             <div className="mb-8 flex justify-center">
               <div className="relative">
-                <div className="h-24 w-24 rounded-full bg-gradient-to-br from-red-600 to-red-800 flex items-center justify-center shadow-2xl">
-                  <span className="text-white font-bold text-4xl">IS</span>
+                <div className="h-32 w-32 flex items-center justify-center shadow-2xl">
+                  <Image
+                    src="/logo.png"
+                    alt="Impression Imaging Logo"
+                    width={128}
+                    height={128}
+                    className="object-contain"
+                    priority
+                  />
                 </div>
-                <div className="absolute -top-2 -right-2 h-8 w-8 bg-white rounded-full opacity-20"></div>
               </div>
             </div>
             
@@ -494,8 +504,14 @@ export default function Home() {
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
               <div className="flex items-center space-x-2 mb-4">
-                <div className="h-10 w-10 rounded-full bg-white flex items-center justify-center">
-                  <span className="text-red-600 font-bold text-lg">IS</span>
+                <div className="h-10 w-10 flex items-center justify-center">
+                  <Image
+                    src="/logo.png"
+                    alt="Impression Imaging Logo"
+                    width={40}
+                    height={40}
+                    className="object-contain"
+                  />
                 </div>
                 <span className="text-xl font-bold">Impression Imaging Services</span>
               </div>

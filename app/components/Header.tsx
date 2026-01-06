@@ -35,9 +35,9 @@ export default function Header() {
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center space-x-3" onClick={closeMenu}>
             <div className="flex items-center space-x-2">
-              <div className="h-10 w-10 rounded-full bg-gradient-to-br from-red-600 to-red-800 flex items-center justify-center shadow-md overflow-hidden">
+              <div className="h-10 w-10 flex items-center justify-center shadow-md overflow-hidden">
                 <Image
-                  src="/logo.svg"
+                  src="/logo.png"
                   alt="Impression Imaging Logo"
                   width={40}
                   height={40}
