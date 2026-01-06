@@ -35,16 +35,14 @@ export default function Header() {
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center space-x-3" onClick={closeMenu}>
             <div className="flex items-center space-x-2">
-              <div className="h-10 w-10 flex items-center justify-center shadow-md overflow-hidden">
-                <Image
-                  src="/logo.png"
-                  alt="Impression Imaging Logo"
-                  width={40}
-                  height={40}
-                  className="object-contain"
-                  priority
-                />
-              </div>
+              <Image
+                src="/logo.png"
+                alt="Impression Imaging Logo"
+                width={48}
+                height={80}
+                className="object-contain h-16 w-auto"
+                priority
+              />
               <span className="text-xl font-bold text-slate-900">Impression Imaging</span>
             </div>
           </Link>
