@@ -34,7 +34,7 @@ export default function AboutPage() {
                 <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">Company Overview</h2>
                 <div className="space-y-4 text-lg text-slate-700 leading-relaxed">
                   <p>
-                    <span className="text-red-600 font-bold text-xl">Impression Imaging Services Private Limited</span> is a leading provider of comprehensive branding and activation solutions with over <span className="text-red-600 font-semibold">23 years of experience</span> in the industry.
+                    <span className="text-red-600 font-bold text-xl">Impression Imaging Services Private Limited</span> is a leading provider of comprehensive branding and activation solutions with over <span className="text-red-600 font-semibold">27 years experience</span> in the industry.
                   </p>
                   <p>
                     We are a <span className="font-semibold">360-degree solutions powerhouse</span>, specializing in digital, ATL, BTL, and activation services. Since 1999, we have been committed to delivering strategic, creative, and tactical solutions that work for your brand.
@@ -97,11 +97,13 @@ export default function AboutPage() {
               </div>
             </div>
 
-            {/* Business Address */}
-            <div className="mb-16">
-              <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-8 text-center">Principal Place of Business</h2>
+            {/* Business Addresses */}
+            <div className="mb-16 space-y-10">
+              <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4 text-center">Our Offices</h2>
+
+              {/* Principal Place of Business - Patna */}
               <div className="bg-white rounded-2xl shadow-lg p-8 md:p-10 border border-slate-200">
-                <div className="flex items-start space-x-4 mb-6">
+                <div className="flex items-start space-x-4 mb-4">
                   <div className="flex-shrink-0">
                     <div className="w-16 h-16 bg-gradient-to-br from-red-600 to-red-800 rounded-xl flex items-center justify-center">
                       <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -111,8 +113,8 @@ export default function AboutPage() {
                     </div>
                   </div>
                   <div className="flex-1">
-                    <h3 className="text-2xl font-bold text-slate-900 mb-4">Registered Office Address</h3>
-                    <div className="space-y-2 text-slate-700 text-lg">
+                    <h3 className="text-2xl font-bold text-slate-900 mb-2">Registered Office Address (Patna)</h3>
+                    <div className="space-y-1 text-slate-700 text-lg">
                       <p><span className="font-semibold">Building:</span> Ground Floor 01 & 02</p>
                       <p><span className="font-semibold">Premises:</span> Krishna Compound</p>
                       <p><span className="font-semibold">Road/Street:</span> Fraser Road</p>
@@ -123,6 +125,26 @@ export default function AboutPage() {
                       <p><span className="font-semibold">State:</span> Bihar</p>
                       <p><span className="font-semibold">PIN Code:</span> 800001</p>
                     </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Ranchi Branch Address */}
+              <div className="bg-white rounded-2xl shadow-lg p-8 md:p-10 border border-slate-200">
+                <div className="flex items-start space-x-4 mb-4">
+                  <div className="flex-shrink-0">
+                    <div className="w-16 h-16 bg-gradient-to-br from-red-600 to-red-800 rounded-xl flex items-center justify-center">
+                      <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 2C8.134 2 5 5.134 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.866-3.134-7-7-7z" />
+                        <circle cx="12" cy="9" r="3" />
+                      </svg>
+                    </div>
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-2xl font-bold text-slate-900 mb-2">Ranchi Branch Office</h3>
+                    <p className="text-slate-700 text-lg leading-relaxed">
+                      Maha Laxmi Complex, Shop No.- 105, Line Tank Road, P.S.- Kotwali, Ranchi, Pin- 834001, Jharkhand.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -184,8 +206,8 @@ export default function AboutPage() {
                        <svg className="w-5 h-5 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                        </svg>
-                       <a href="mailto:jitendra@impressionimaging.co.in" className="hover:text-red-600 transition-colors">
-                         jitendra@impressionimaging.co.in
+                       <a href="mailto:lalan@impressionimaging.co.in" className="hover:text-red-600 transition-colors">
+                         lalan@impressionimaging.co.in
                        </a>
                      </div>
                    </div>
@@ -209,8 +231,8 @@ export default function AboutPage() {
                        <svg className="w-5 h-5 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                        </svg>
-                       <a href="mailto:lalan@impressionimaging.co.in" className="hover:text-red-600 transition-colors">
-                         lalan@impressionimaging.co.in
+                       <a href="mailto:jitendra@impressionimaging.co.in" className="hover:text-red-600 transition-colors">
+                         jitendra@impressionimaging.co.in
                        </a>
                      </div>
                    </div>
