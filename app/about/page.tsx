@@ -243,7 +243,7 @@ export default function AboutPage() {
             {/* Experience Badge */}
             <div className="bg-gradient-to-r from-red-600 via-red-700 to-red-600 rounded-2xl shadow-2xl p-10 md:p-12 text-white text-center">
               <div className="max-w-3xl mx-auto">
-                <div className="text-6xl md:text-7xl font-bold mb-4">23+</div>
+                <div className="text-6xl md:text-7xl font-bold mb-4">27+</div>
                 <div className="text-2xl md:text-3xl font-semibold mb-2">Years of Excellence</div>
                 <div className="text-xl text-red-100">Serving brands since 1999</div>
               </div>
@@ -270,7 +270,7 @@ export default function AboutPage() {
                 <span className="text-xl font-bold">Impression Imaging Services</span>
               </div>
               <p className="text-red-100">
-                Experience of 23 Years
+                Experience of 27 Years
               </p>
             </div>
             <div>
